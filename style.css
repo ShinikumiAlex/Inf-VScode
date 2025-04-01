@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4fc;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 900px;
+    overflow: hidden;
+}
+
+/* Левая панель */
+.sidebar {
+    background: #e0e7ff;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.avatar {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.btn {
+    display: block;
+    background: #623ce7;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.btn.secondary {
+    background: #a3bffa;
+}
+
+.friends-section {
+    margin-top: 20px;
+}
+
+.friends img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.interests {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.interests span {
+    background: #d4d7f5;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Основная информация */
+.content {
+    padding: 20px;
+    width: 100%;
+}
+
+.verified {
+    color: blue;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.info,
+.owner,
+.bio {
+    margin-bottom: 15px;
+}
+
+a {
+    color: #623ce7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Достижения */
+.achievements ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.achievements ul li {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.achievements ul li ul {
+    font-weight: normal;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Еда */
+.favorite-food {
+    background: #ffebc1;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
